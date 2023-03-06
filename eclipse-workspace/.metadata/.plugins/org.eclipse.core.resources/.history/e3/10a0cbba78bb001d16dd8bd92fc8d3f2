@@ -1,7 +1,0 @@
-package atm_project;
-
-public class ATM {
-	public void calis() {
-		
-	}
-}
