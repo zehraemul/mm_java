@@ -1,0 +1,12 @@
+
+public class Araba {
+	
+	
+	public String renk;
+	public int kapi_sayisi;
+	public int tekerlek_sayisi;
+	public String motor;
+	public String model;
+	
+	
+};

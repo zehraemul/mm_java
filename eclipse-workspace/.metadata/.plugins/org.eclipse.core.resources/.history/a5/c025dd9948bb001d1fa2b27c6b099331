@@ -1,0 +1,15 @@
+
+public class Test {
+	public static void main(String[] args) {
+		
+		
+		Araba araba1 =  new Araba();
+		araba1.renk = "kirmizi";
+		araba1.kapi_sayisi = 4;
+		araba1.model = "Renault";
+		araba1.tekerlek_sayisi=4;
+		araba1.motor = "16V";
+		
+		System.out.println(araba1.motor);
+	}
+}

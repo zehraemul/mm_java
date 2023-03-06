@@ -1,0 +1,23 @@
+package bolum5;
+import java.util.Scanner;
+public class bolum5 {
+
+	public static void main(String[] args) {
+		System.out.print("bir sayi girin");
+		Scanner scanner = new Scanner(System.in);
+		int sayi = scanner.nextInt();
+		int sum=0;
+		
+		do {
+			sum +=sayi%10;
+			sayi /=10;
+			
+		}while(sayi>0);
+			
+		
+		System.out.println("sayinin rakamlari toplami : " +sum);
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package bolum7;
+
+public class bolum7 {
+	public static void selamlama() {
+		System.out.println("hello");
+		System.out.println("world");
+	}
+
+	public static void main(String[] args) {
+		selamlama();
+		
+
+	}
+
+}
